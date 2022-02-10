@@ -29,4 +29,10 @@ public class Metodos {
 		
 		return c*d;
 	}
+	
+	//Método estático
+	//estático, void (no regresa datos), usa argumentos
+	public static void imprimirNombre(String nombre) {
+		System.out.println("Mi nombre es: "+nombre);
+	}
 }
